@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+@font-face {
+    font-family: フォント名;
+    src: url(font/フォント名.ttf) format(”truetype”);
+    }
+
+.title {
+
+    padding: 30px;
+
+    text-align: center;
+
+    font-family: 'cinzel';
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: skyblue;
+}
+
+.main {
+
+    margin-top: 30px;
+    margin-bottom: 60px;
+
+    display: relative;
+
+    align-items: center;
+    text-align: center;
+
+    width: 100%;
+
+}
+
+.pictures {
+
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: row;
+    justify-content: center;
+    justify-content: space-around;
+
+
+}
+
+img {
+    margin: 5px 5px 5px 5px;
+}
+
+.conection {
+
+    margin-top: 50px;
+
+}
+
+a {
+
+    padding: 30px;
+
+    font-family: 'cinzel';
+    font-size: 15px;
+    text-decoration: none;
+
+    color: black;
+
+}
+
+a:hover {
+
+    color: gray;
+
+}
+
+
+.footer {
+
+    height: 70px;
+    text-align: center;
+    font-family: 'cinzel';
+
+    font-size: 15px;
+
+    padding-top: 40px;
+    padding-bottom: 50px;
+
+
+    color: white;
+    background-color: #87ceeb;
+}
