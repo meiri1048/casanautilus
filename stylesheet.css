@@ -45,9 +45,6 @@
 
 .header-contents {
 
-    margin-left: 40px;
-    margin-right: 40px;
-
     position: absolute;
     top: 20px;
     
@@ -60,7 +57,7 @@
 .header-contents span {
 
     top: 5px;
-    word-spacing: 5px;
+    word-spacing: 10px;
     position: relative;
     justify-content: middle;
     white-space: nowrap;
