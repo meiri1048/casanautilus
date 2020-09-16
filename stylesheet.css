@@ -31,22 +31,42 @@
 
 }
 
+@media screen and (min-width: 1142px) { 
+    .header {
+        font-size: 2.4vw;
+    }
+}
+
 @media screen and (max-width: 1024px) { 
     .header {
-        font-size: 3.0vw;
-        font-weight: bold;
+        font-size: 2.4vw;
+    }
+
+    .header-contesnts {
+        margin-left: 60px;
+        margin-right: 60px;
     }
 }
 @media screen and (max-width: 896px) { 
     .header {
-        font-size: 2.2vw;
-        font-weight: bold;
+        font-size: 2.4vw;
+    }
+
+    .header-contesnts {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 @media screen and (max-width: 480px) {
     .header {
-        font-size: 2vw;
+        font-size: 2.2vw;
         font-weight: bold;
+    }
+
+
+    .header-contesnts {
+        padding-left: 10px;
+        padding-right: 10px;
     }
  }
 
